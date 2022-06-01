@@ -1,0 +1,14 @@
+#content-parameter li a.active {
+    border-bottom: 3px solid #5992ff !important;
+}
+
+input[type="checkbox"] {
+    padding: 8px;
+    border: 1px black solid;
+}
+
+.dataTables_filter input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size:14px;
+}

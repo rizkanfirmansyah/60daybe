@@ -1,0 +1,472 @@
+@font-face {
+  font-family: 'Inter';
+  src: url("/assets/fonts/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'InterLight';
+  src: url("/assets/fonts/Inter/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: url("/assets/fonts/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: url("/assets/fonts/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url("/assets/fonts/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("/assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'RubikMedium';
+  src: url("/assets/fonts/Rubik/Rubik-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'RubikSemiBold';
+  src: url("/assets/fonts/Rubik/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'RubikBold';
+  src: url("/assets/fonts/Rubik/Rubik-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'RubikLight';
+  src: url("/assets/fonts/Rubik/Rubik-Light.ttf");
+}
+
+nav.navbar .navbar-brand {
+  font-family: 'InterBold';
+}
+
+nav.navbar #navbarNav ul.navbar-nav .nav-item a.nav-link {
+  font-family: 'Rubik';
+}
+
+nav.navbar #navbarNav ul.navbar-nav .nav-item a.nav-link.active {
+  font-family: 'RubikMedium';
+  color: #375AA1;
+}
+
+.text-bg-primary {
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(55, 90, 161, 0.15) !important;
+  color: #375AA1 !important;
+  font-size: 13px;
+  font-family: 'Inter';
+  border-radius: 15px;
+}
+
+main#content #jumbotron .col-lg-4 h2 {
+  font-family: 'InterSemiBold';
+  font-size: 32px;
+  line-height: 45px;
+  color: #231F20;
+}
+
+main#content #jumbotron .col-lg-4 p {
+  font-family: 'Inter';
+  font-size: 15px;
+  opacity: 0.5;
+  color: #231F20;
+}
+
+main#content #jumbotron .col-lg-4 button {
+  font-size: 15px;
+  font-family: 'InterSemiBold';
+  background-color: #375AA1 !important;
+  margin: 5px 5px 5px -105px;
+}
+
+main#content #jumbotron .col-lg-4 input::-webkit-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #jumbotron .col-lg-4 input:-ms-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #jumbotron .col-lg-4 input::-ms-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #jumbotron .col-lg-4 input::placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #highlight {
+  background-color: #375AA1;
+  background-image: url("/assets/images/bg-highlight.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+main#content #highlight .row h3 {
+  font-family: 'InterSemiBold';
+  font-size: 32px;
+  line-height: 45px;
+  color: white;
+}
+
+main#content #highlight .row p {
+  font-family: 'Inter';
+  font-size: 15px;
+  opacity: 0.5;
+  color: white;
+}
+
+main#content #highlight .row .table {
+  border: #375AA1 solid 1px;
+  border-radius: 10px !important;
+  background-color: white;
+}
+
+main#content #highlight .row .table thead {
+  border-top: #375AA1 solid 2px;
+  border-bottom: #375AA1 solid 2px;
+}
+
+main#content #highlight .row .table th,
+main#content #highlight .row .table td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+main#content #section-one {
+  background-color: #F9F9F9;
+}
+
+main#content section h2 {
+  font-family: 'InterSemiBold';
+  font-size: 32px;
+  line-height: 45px;
+}
+
+main#content section p {
+  font-family: 'Inter';
+  font-size: 15px;
+  opacity: 0.5;
+  color: #231F20;
+}
+
+main#content #list #task-list h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main#content #list #task-list .images {
+  overflow: hidden;
+}
+
+main#content #list #task-list .images img {
+  height: 125px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main#content #list #task-list .card {
+  cursor: pointer;
+  border: rgba(35, 31, 32, 0.25) 1px solid;
+}
+
+main#content #list #task-list .card a {
+  text-decoration: none;
+}
+
+main#content #list #task-list .card h2 {
+  color: #231F20;
+}
+
+main#content #list #task-list .card .card-body span {
+  font-size: 12px;
+}
+
+main#content #list #task-list .card:hover {
+  border: 0.5px solid #375AA1;
+  -webkit-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.25);
+          box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.25);
+}
+
+main#content #for-questions {
+  background-color: #F9F9F9;
+  padding-top: 50px;
+}
+
+main#content #for-questions #questions {
+  background-color: #F9F9F9;
+}
+
+main#content #for-questions #questions .accordion-item {
+  border: rgba(35, 31, 32, 0.25) 1px solid;
+  border-radius: 0%;
+  background-color: #F9F9F9;
+}
+
+main#content #for-questions #questions .accordion-item .accordion-button {
+  background-color: #F9F9F9 !important;
+}
+
+main#content #for-questions #questions .accordion-item .accordion-button.collapsed {
+  background: transparent;
+  font-family: 'Inter';
+  color: rgba(35, 31, 32, 0.75);
+  font-size: 18px;
+}
+
+main#content #for-questions #questions .accordion-item .accordion-button {
+  background: transparent;
+  font-family: 'InterMedium';
+  color: #375AA1;
+  font-size: 18px;
+  border-bottom: rgba(35, 31, 32, 0.25) 0.5px solid;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main#content #for-questions #questions .accordion-item .accordion-body {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+main#content #for-questions #questions .accordion-item .accordion-button.collapsed::after {
+  background-image: url("/assets/icons/plus.png");
+  margin-bottom: 0px;
+}
+
+main#content #for-questions #questions .accordion-button::after {
+  margin-bottom: 12px;
+  background-image: url("/assets/icons/minus.png");
+}
+
+main#content #header-content .row .images {
+  overflow: hidden;
+}
+
+main#content #header-content .row .images img {
+  border-radius: 30px;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main#content #header-content .row h2 {
+  font-family: 'InterBold';
+  font-size: 32px;
+  color: #231F20;
+}
+
+main#content #header-content .row p {
+  font-family: 'Inter';
+  color: rgba(35, 31, 32, 0.5);
+}
+
+main#content #header-content .row span {
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(55, 90, 161, 0.15) !important;
+  color: #375AA1 !important;
+  font-size: 13px;
+  font-family: 'Inter';
+  border-radius: 15px;
+  border-radius: 5px;
+  padding: 10px 35px 10px 35px;
+  font-size: 14px;
+}
+
+main#content #header-content .row button {
+  font-size: 15px;
+  font-family: 'InterSemiBold';
+  background-color: #375AA1 !important;
+  margin: 5px 5px 5px -105px;
+}
+
+main#content #header-content .row input::-webkit-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #header-content .row input:-ms-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #header-content .row input::-ms-input-placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #header-content .row input::placeholder {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 15px;
+  font-family: 'Inter';
+}
+
+main#content #body-content #tabChallenges .nav-item {
+  font-family: 'Inter' !important;
+}
+
+main#content #body-content #tabChallenges .nav-item .nav-link {
+  color: rgba(35, 31, 32, 0.5);
+}
+
+main#content #body-content #tabChallenges .nav-item .nav-link.active {
+  color: #375AA1;
+  font-family: 'InterSemiBold';
+  border: none;
+  border-bottom: 2px #375AA1 solid;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item {
+  border: rgba(35, 31, 32, 0.25) 1px solid;
+  border-radius: 0%;
+  background-color: #F9F9F9;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item .accordion-button {
+  background-color: #F9F9F9 !important;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item .accordion-button.collapsed {
+  background: transparent;
+  font-family: 'Inter';
+  color: rgba(35, 31, 32, 0.75);
+  font-size: 18px;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item .accordion-button {
+  background: transparent;
+  font-family: 'InterMedium';
+  color: #375AA1;
+  font-size: 18px;
+  border-bottom: rgba(35, 31, 32, 0.25) 0.5px solid;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item .accordion-body {
+  color: rgba(35, 31, 32, 0.5);
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+main#content #body-content #tabDetails #challenges .accordion-item .accordion-button.collapsed::after {
+  background-image: url("/assets/icons/plus.png");
+  margin-bottom: 0px;
+}
+
+main#content #body-content #tabDetails #challenges .accordion-button::after {
+  margin-bottom: 12px;
+  background-image: url("/assets/icons/minus.png");
+}
+
+main#content #body-content #tabDetails #develope-tab-pane h2 {
+  font-size: 24px;
+  font-family: 'InterSemiBold';
+}
+
+main#content #body-content #tabDetails #develope-tab-pane img {
+  width: 200px;
+}
+
+main#content #body-content #detail-challenge h2 {
+  font-size: 22px;
+  font-family: 'InterMedium';
+  color: #231F20;
+}
+
+main#content #body-content #detail-challenge table tr td {
+  font-size: 16px;
+  color: #231F20;
+  font-family: 'Inter';
+  opacity: 0.75;
+}
+
+footer #main-footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #375AA1;
+}
+
+footer #main-footer .col-lg-5 {
+  margin-top: 20px;
+  padding-right: 80px;
+}
+
+footer #main-footer .col-lg-5 h2 {
+  color: white;
+  font-family: 'InterBold';
+  font-size: 26px;
+}
+
+footer #main-footer .col-lg-5 p {
+  color: white;
+  opacity: 0.8;
+}
+
+footer #main-footer .col-lg-5 a {
+  display: inline;
+}
+
+footer #main-footer h4 {
+  color: white;
+  font-family: 'InterBold';
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+footer #main-footer a {
+  color: white;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 34px;
+  display: block;
+  text-decoration: none;
+}
+
+footer #secondary-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Inter';
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  main#content #highlight {
+    background-image: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
